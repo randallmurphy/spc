@@ -17,7 +17,7 @@
 	"license": "MIT",
 	"author": "randall murphy",
 	"type": "commonjs",
-	"main": "node assertion-analyser.js",
+	"main": "server.js",
 	"directories": {
 		"test": "tests"
 	},
