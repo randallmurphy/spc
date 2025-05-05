@@ -2,6 +2,25 @@
 	"name": "boilerplate-project-stockchecker",
 	"version": "0.0.1",
 	"description": "InfoSec project for freeCodeCamp",
+	"keywords": [
+		"node",
+		"express"
+	],
+	"homepage": "https://github.com/freeCodeCamp/boilerplate-project-stockchecker#readme",
+	"bugs": {
+		"url": "https://github.com/freeCodeCamp/boilerplate-project-stockchecker/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/freeCodeCamp/boilerplate-project-stockchecker.git"
+	},
+	"license": "MIT",
+	"author": "randall murphy",
+	"type": "commonjs",
+	"main": "assertion-analyser.js",
+	"directories": {
+		"test": "tests"
+	},
 	"scripts": {
 		"start": "node server.js"
 	},
@@ -14,14 +33,5 @@
 		"express": "^4.14.0",
 		"helmet": "^3.1.0",
 		"mocha": "^3.2.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-project-stockchecker"
-	},
-	"keywords": [
-		"node",
-		"express"
-	],
-	"license": "MIT"
+	}
 }
