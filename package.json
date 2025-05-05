@@ -12,12 +12,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/freeCodeCamp/boilerplate-project-stockchecker.git"
+		"url": "git+https://https://randallmurphy.github.io/spc/"
 	},
 	"license": "MIT",
 	"author": "randall murphy",
 	"type": "commonjs",
-	"main": "assertion-analyser.js",
+	"main": "server.js",
 	"directories": {
 		"test": "tests"
 	},
