@@ -7,7 +7,7 @@ chai.use(chaiHttp);
 
 suite("Functional Tests", function () {
   let likesCount = 0;
-
+  suite('GET /api/stock-prices => stockData object', function() {
   test("Viewing one stock: GET request to /api/stock-prices/", function (done) {
     chai
       .request(server)
@@ -93,4 +93,5 @@ suite("Functional Tests", function () {
         done();
       });
   });
+});
 });
